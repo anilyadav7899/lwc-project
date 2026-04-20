@@ -27,6 +27,7 @@ export default class ApexDataBindingLwc extends LightningElement {
     }
     calculateHandler(){
         console.log("calculatehandler()::\n n1 :"+this.n1+"\n n2 : "+this.n2+"\n operation:"+this.operation+"")
+        console.log("feature branch change")
     }
     @wire(sendMessage) message 
     @wire(sendGreeting,{personName:"Anil Peyyala"})getGreeting({error,data}){
