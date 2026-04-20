@@ -36,6 +36,7 @@ export default class ApexDataBindingLwc extends LightningElement {
         }
         if(error){
             console.log("ERROR::"+JSON.stringify(error))
+            console.log("changes")
         }
     }
     constructor(){
